@@ -1,0 +1,242 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.header h1{
+    margin-top: 2em;
+    margin-bottom: 0;
+    font-size: 5em;
+    text-shadow: 4px 1px 1px white;
+    color: rgba(0, 0, 0, 0.801);
+}
+.header{
+    width: 100%;
+    background-color: black;
+   /* font-size: 2.5em;*/
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 70vh;
+    
+
+    background-image: url('../img/teste.png');
+    background-repeat: repeat;
+    
+    
+}
+.reference> p{
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+.base-inf{
+    min-height: 30vh;
+    background-color: rgba(0, 0, 0, 0.055);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.header-inf {
+    font-size: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+    width: 95%;
+    margin: auto;
+   
+}
+.header-inf h2{
+    margin: 0;
+    padding: .6em;
+}
+.txt-inf {
+    font-size: 1.2em;
+    margin-top: 0; 
+    padding: .1em;
+    color: black;
+    width: 94%;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+    padding: .6em;
+    flex-wrap: wrap;
+}
+.txt-inf a{
+    border: 1px solid;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: .5em;
+    text-decoration: none;
+
+}
+.txt-inf a:hover{
+    color: rgb(255, 255, 255);
+    background-color: #25d366;
+    transition: .2s;
+}
+img{
+    width: 250px;
+}
+.top-main{
+    text-align: center;
+    padding: 1em;
+}
+.top-main h2{
+    font-size: 2.5em;
+}
+.top-main p{
+    font-size: 1.5em;
+}
+.foto{
+    width: 16.5em;
+    height: 13em;
+    position: relative;
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    
+}
+.foto img{
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    left: 0;
+    flex-shrink: 0;
+    object-fit: cover;
+    scroll-behavior: smooth;
+    
+}
+.car-grup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2em ;
+    gap: 3em;
+    margin-bottom: 2em;
+    min-height: 90vh;
+    background-color: rgba(49, 49, 49, 0.055);
+}
+.inst{
+    width: 30em;
+    height: 23em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    margin-bottom: 3em;
+    border-radius: 6px;
+    background-color: white;
+    
+}
+.inst:hover{
+    box-shadow: 2px 2px 6px 5px rgba(0, 0, 0, 0.404);
+}
+.inst img{
+    border-radius: 6px;
+}
+h2{
+    font-size: 2em;
+}
+.banner-marca{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+    min-height: 25vh;
+}
+.carta{
+    text-align: center;
+}
+.banner-marca img{
+    width: 200px;
+    padding: 2px;
+
+}
+.via{
+    min-height: 50vh;
+}
+summary::-webkit-details-marker {
+    display: none
+    
+  }
+summary:after {
+    background: black; 
+    content: "+"; 
+    color: #fff; 
+    float: left;  
+    font-weight: bold; 
+    padding: 0; 
+    text-align: center; 
+    width: 20px;
+    left: 20px;
+    margin-right: 10px;
+  }
+details[open] summary:after {
+    content: "-";
+  }
+
+summary {
+    list-style-type: none;
+    border: 1px solid rgb(0, 174, 255);
+    border-radius: 4px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: .5em;
+    padding: .3em;
+    
+  }
+details p{
+    /* border: 1px solid blue; */
+    width: 76%;
+    margin: auto;
+    margin-bottom: 1em;
+    padding: .2em;
+    transition: .6s;
+  }
+  
+.con{
+    width: 100%;
+    min-height: 68vh;
+    background-color: #bdbdbd;
+}
+footer{
+    margin-top: 4px;
+    border: 1px solid;
+    margin-top: 2px;
+    min-height: 30vh;
+}
+
+.whatsapp-link{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 5px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+.whatsapp-link:hover{
+    background-color: #18a54c;
+    outline: 3px solid #21be5b;
+}
