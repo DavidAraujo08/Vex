@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap'); 
 body{
     font-family: Arial, Helvetica, sans-serif;
-
+    margin: 0;
+    width: auto;
 }
-.header h1{
+ h1{
     margin-top: 2em;
     margin-bottom: 0;
     font-size: 5em;
     text-shadow: 4px 1px 1px white;
     color: rgba(0, 0, 0, 0.801);
+    font-family: "Radio Canada Big", sans-serif;
+    
 }
 .header{
     width: 100%;
@@ -22,7 +26,8 @@ body{
     
 
     background-image: url('../img/teste.png');
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+
     
     
 }
@@ -182,11 +187,11 @@ summary:after {
     width: 20px;
     left: 20px;
     margin-right: 10px;
+
   }
 details[open] summary:after {
-    content: "-";
+    content: "-"; 
   }
-
 summary {
     list-style-type: none;
     border: 1px solid rgb(0, 174, 255);
@@ -194,31 +199,71 @@ summary {
     width: 80%;
     margin: auto;
     margin-bottom: .5em;
-    padding: .3em;
+    padding: .3em; 
     
   }
-details p{
+details>img{
     /* border: 1px solid blue; */
     width: 76%;
     margin: auto;
     margin-bottom: 1em;
     padding: .2em;
-    transition: .6s;
+
   }
   
-.con{
-    width: 100%;
-    min-height: 68vh;
-    background-color: #bdbdbd;
+.contato{
+   width: 100%;
+   min-height: 60vh;
+   background-color: rgba(0, 0, 0, 0.055);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
 }
-footer{
-    margin-top: 4px;
-    border: 1px solid;
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+.geralcontato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.con{
+    width: auto;
+    
+
+}
+.logoEsquerdo{
+    width:auto;
+    justify-content: center;
+}
+.footer{
+
+
     margin-top: 2px;
     min-height: 30vh;
+    color: #fff;
+    background-color: black;
+    display: flex;
+    line-height: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-
-.whatsapp-link{
+.redes-sociais i{
+    display: flexbox;
+    align-items: center;
+    margin: .1em;
+    
+  
+    
+}
+.whatsapp-link {
     position: fixed;
     width: 60px;
     height: 60px;
@@ -240,3 +285,11 @@ footer{
     background-color: #18a54c;
     outline: 3px solid #21be5b;
 }
+.fab{
+    color: rgb(0, 174, 255);
+    font-size: 30px;
+}
+.fab:hover {
+    color: rgb(255, 255, 255);
+    outline: 35px;
+    }
