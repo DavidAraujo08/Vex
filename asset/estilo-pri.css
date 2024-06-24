@@ -208,39 +208,31 @@ summary{
     margin-bottom: .3em;
   }
 .contato{
-   width: auto;
+   width: 100%;
    min-height: 50vh;
    background-color: var(--primary-color);
    display: flex;
    align-items: center;
-   justify-content: space-around;
+   justify-content: center;
    flex-wrap: wrap;
    font-size: 1.5em;
 }
-.cont{ 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: auto;
-}
 .geralcontato{
-    width: 40em;
-    min-height: 50vh;
+ width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 1em;
     margin: 1em;
 
 }
 .con{
-    width: 40%;
-    margin: auto;
+    width: 100%;
+
     display: flex;
     align-items: center;
-    justify-items: start;
+    justify-content: space-around;
     flex-direction: column;
     flex-wrap: wrap;
     
