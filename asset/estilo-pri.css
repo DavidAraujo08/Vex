@@ -218,7 +218,7 @@ summary{
    font-size: 1.5em;
 }
 .geralcontato{
- width: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -229,7 +229,6 @@ summary{
 }
 .con{
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -243,6 +242,7 @@ summary{
 }
 .con a{
     color: black;
+    font-size: .8em;
 }
 
 .logoEsquerdo{
