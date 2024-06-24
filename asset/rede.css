@@ -1,7 +1,8 @@
 .redes-sociais i{
     display: flexbox;
     align-items: center;
-    margin: .1em;  
+    margin: .5em;  
+    
 }
 .whatsapp-link {
     position: fixed;
