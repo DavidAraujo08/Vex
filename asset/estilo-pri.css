@@ -25,11 +25,12 @@ body{
     min-height: 70vh;
     
 
-    background-image: url('../img/teste.png');
+    background-image: url('../img/SVG1.svg');
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50%;
+    background-position:center; 
+    background-size: 80em;
     background-attachment:fixed;
+    fill: red;
   
     
     
@@ -93,10 +94,14 @@ body{
     background-color: #25d366;
     transition: .2s;
 }
-.top-main, .top-main h2{
+.top-main{
     text-align: center;
-    padding: .3em;
-    font-size: 1.6em;
+    padding: 1.5em;  
+}
+.cabecalho{
+    font-size: 2.6em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.432);
+
 }
 .foto{
     width: 16.5em;
@@ -142,6 +147,7 @@ body{
     
 }
 .inst:hover{
+    transition: .5s;
     box-shadow: 2px 2px 6px 5px rgba(0, 0, 0, 0.123);
 }
 .inst img{
@@ -175,6 +181,8 @@ body{
 .text-option{
     text-align: center;
     margin: 12px 0;
+    font-size: 2.6em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.432);
 }
 summary::-webkit-details-marker {
     display: none;
@@ -204,6 +212,7 @@ summary{
     margin: auto;
     margin-bottom: .5em;
     padding: .3em; 
+    font-size: 1em;
   }
   summary:hover{
     border-bottom: 2px solid red;
@@ -238,7 +247,7 @@ summary{
     text-align: center;
     display: flex;
     align-items: flex-start;
-    box-shadow: 1px 2px 8px 1px #00aeff;
+    /* box-shadow: 1px 2px 8px 1px #00aeff; */
     background-image: linear-gradient( #00aeff 5%, #00aeffb9 20%, #ffffff 70%);
     margin-top: 2em;
 
