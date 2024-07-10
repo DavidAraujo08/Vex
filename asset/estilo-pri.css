@@ -28,9 +28,10 @@ body{
     background-image: url('../img/SVG1.svg');
     background-repeat: no-repeat;
     background-position:center; 
-    background-size: 80em;
+    background-size: 60em;
     background-attachment:fixed;
-    fill: red;
+
+    
   
     
     
@@ -98,10 +99,13 @@ body{
     text-align: center;
     padding: 1.5em;  
 }
-.cabecalho{
+.cab-main{
     font-size: 2.6em;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.432);
-
+}
+.test-main{
+    font-size: 2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.432);
 }
 .foto{
     width: 16.5em;
@@ -141,17 +145,17 @@ body{
     align-items: center;
     flex-direction: column;
     padding: 2em;
-    margin-bottom: 3em;
+    margin-bottom: .6em;
     border-radius: 6px;
     background-color: white;
-    
+    box-shadow: 2px 2px 6px 5px rgba(0, 0, 0, 0.123);
 }
 .inst:hover{
     transition: .5s;
-    box-shadow: 2px 2px 6px 5px rgba(0, 0, 0, 0.123);
+    box-shadow: 2px 2px 6px 5px rgba(0, 0, 0, 0.349);
 }
 .inst img{
-    border-radius: 6px;
+    border-radius: 1em;
 }
 .carta .banner-header{
     text-align: center;
@@ -166,8 +170,9 @@ body{
     min-height: 25vh;
 }
 .banner-body img{
-    width: 200px;
+    width: 12.5em;
     padding: 2px;
+    gap: 1em;
 
 }
 .tipoServiço p{
@@ -215,6 +220,7 @@ summary{
     font-size: 1em;
   }
   summary:hover{
+    transition: .5s;
     border-bottom: 2px solid red;
   }
   details{
@@ -242,8 +248,9 @@ summary{
 }
 .con{ 
     border-radius: 6px;
-    width: 18em;
-    padding: 1.6em;
+    width: 16em;
+    padding: 1em;
+    transition: .5s;
     text-align: center;
     display: flex;
     align-items: flex-start;
